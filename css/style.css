@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
 :root {
     --bg1: #151828;
     --bg2: #181f34;
@@ -12,8 +12,10 @@
 /* https://www.youtube.com/watch?v=o_zyzFGLpBA */
 /* font-family: 'Dela Gothic One', cursive;
 font-family: 'Inter', sans-serif; */
+/* font-family: 'Licorice', cursive; */
 
 body {
+    position: relative;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: var(--body);
     line-height: 1.8;
@@ -23,6 +25,32 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: white;
+}
+
+a {
+    color: var(--body);
+    text-decoration: none;
+}
+
+.link-more{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.link-more i {
+    transition: all 0.4s ease;
+    font-size: 20px;
+}
+
+.link-more:hover i{
+    transform: translateX(8px);
+}
+
+a:hover {
+    color:var(--brand);
 }
 
 img {
@@ -88,3 +116,46 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 .btn-outline-brand:hover {
     background-color: var(--brand);
 }
+
+/* ABOUT US */
+.img-about {
+    height: 650px;
+    object-fit: cover;
+}
+
+.signature {
+    font-family: 'Licorice', cursive;
+    font-size: 45px;
+}
+
+#about {
+    position: relative;
+}
+
+#about::after {
+    content: '';
+    width: 25%;
+    height: 100%;
+    /* background-color: linear-gradient(to right, #FFAB76, rgba(27, 31, 52, 0.9)); */
+    background-color: var(--brand);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#about h6 {
+    color: var(--brand);
+}
+
+#about h1 {
+    margin: 16px 0 24px;
+}
+
+/* SERVICES */
+#services{
+    background: var(--bg2);
+}
+
+/* till minute 38.20 */
+/* https://www.youtube.com/watch?v=o_zyzFGLpBA */

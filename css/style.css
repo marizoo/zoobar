@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --bg1: #151828;
+    --bg2: #181f34;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #fff;
+}
+
+/* UTILITIES */
+
+/* font-family: 'Dela Gothic One', cursive;
+font-family: 'Inter', sans-serif; */
+
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 160px 0;
+}
+
+/* NAVBAR */
+.navbar {
+
+}
+
+/* HERO */
+#hero {
+    background: linear-gradient(to right, #181f34, rgba(27, 31, 52, 0.0)), url('https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') ;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}

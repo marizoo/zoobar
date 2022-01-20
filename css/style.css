@@ -9,7 +9,7 @@
 }
 
 /* UTILITIES */
-
+/* https://www.youtube.com/watch?v=o_zyzFGLpBA */
 /* font-family: 'Dela Gothic One', cursive;
 font-family: 'Inter', sans-serif; */
 
@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
+    font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     color: white;
 }
 
@@ -35,13 +35,56 @@ section {
 
 /* NAVBAR */
 .navbar {
-
+background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 }
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+
+.navbar-brand {
+    font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+/* till minute 16.10 */
 
 /* HERO */
 #hero {
-    background: linear-gradient(to right, #181f34, rgba(27, 31, 52, 0.0)), url('https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') ;
+    background: linear-gradient(to right, #181f34, rgba(27, 31, 52, 0.1)), url('https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') ;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+#hero p {
+    margin: 24px 0;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 16px 36px;
+    font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s ease; 
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
 }

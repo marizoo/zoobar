@@ -291,6 +291,37 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
     right: 32px;
 }
 
+/* BLOG */
+#blog {
+    background-color: var(--bg1);
+}
 
+.blog-post {
+    position: relative;
+}
+
+.blog-post .date{
+    width: 100px;
+    height: 100px;
+    background-color: var(--brand);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.blog-post .day{
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'Dela Gothic One', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   color: var(--bg1);
+}
+
+.blog-post .year {
+    color: var(--bg1);
+}
 
 

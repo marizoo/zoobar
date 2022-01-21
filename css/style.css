@@ -84,7 +84,7 @@ section {
 }
 
 .cta-btns {
-    margin: 60px 0;
+    margin: 60px;
 }
 
 
@@ -126,6 +126,8 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 
 .btn-brand {
     background-color: var(--brand);
+    width: 250px;
+    margin: 30px;
 }
 
 .btn-brand:hover {
@@ -138,10 +140,13 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
     background-color: transparent;
     color: var(--brand);
     border-color: var(--brand);
+    width: 250px;
+    margin: 30px;
 }
 
 .btn-outline-brand:hover {
     background-color: var(--brand);
+    color: black;
 }
 
 /* ABOUT US */
@@ -159,17 +164,16 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
     position: relative;
 }
 
-#about::after {
+/* #about::after {
     content: '';
     width: 25%;
     height: 100%;
-    /* background-color: linear-gradient(to right, #FFAB76, rgba(27, 31, 52, 0.9)); */
     background-color: var(--brand);
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-}
+} */
 
 #about h6 {
     color: var(--brand);
@@ -178,6 +182,8 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 #about h1 {
     margin: 16px 0 24px;
 }
+
+
 
 /* SERVICES */
 #services{
@@ -194,14 +200,19 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 
 /* MILESTONE */
 #milestone {
-    background: linear-gradient( #151b2e71, rgba(27, 31, 52, 0.651)), url('https://images.pexels.com/photos/3394222/pexels-photo-3394222.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') ;
-    min-height: 60vh;
+    background: linear-gradient( #151b2eab, rgba(27, 31, 52, 0.726)), url('https://images.pexels.com/photos/3394222/pexels-photo-3394222.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') ;
+    height: 60vh;
     background-position: center;
     background-size: cover;
 }
 
 #milestone h1 {
     color: var(--brand);
+}
+
+.counter{
+    margin-top: 70px;
+    letter-spacing: 2px;
 }
 
 /*  FEATURES */
@@ -223,6 +234,10 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 .feature p {
     font-size: 14px;
     margin: 16px 0;
+}
+
+.features-desc{
+    width: 300px;
 }
 
 /* SOCIAL ICONS */
@@ -356,6 +371,16 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 #appointment form .form-control:focus {
     box-shadow: none;
     border-left-color: var(--brand);
+}
+
+/* FOOTER */
+
+footer {
+    margin: 50px 0;
+}
+
+.footer-desc {
+    max-width: 350px;
 }
 
 

@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--body);
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
 .link-more{
@@ -205,6 +206,10 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 }
 
 /*  FEATURES */
+#features {
+    background-color: var(--bg2);
+}
+
 .feature {
     display: flex;
 }
@@ -220,5 +225,41 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
     font-size: 14px;
     margin: 16px 0;
 }
+
+/* SOCIAL ICONS */
+.social-links a{
+    width: 48px;
+    height: 48px;
+    background-color: var(--bg2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.social-links a:hover {
+    background-color: var(--brand);
+    color: var(--bg2);
+}
+
+
+/* TEAM */
+.team-member {
+    position: relative;
+}
+
+.team-member .social-links {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .social-links {
+    opacity: 1;
+    top: 30px;
+}
+
+
 
 

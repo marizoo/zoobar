@@ -198,7 +198,6 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
     min-height: 60vh;
     background-position: center;
     background-size: cover;
-
 }
 
 #milestone h1 {
@@ -322,6 +321,41 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
 
 .blog-post .year {
     color: var(--bg1);
+}
+
+/* Appointment */
+#appointment {
+    background: linear-gradient( #151b2e71, rgba(27, 31, 52, 0.651)), url('https://images.pexels.com/photos/3394222/pexels-photo-3394222.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') ;
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#appointment form {
+    background-color: var(--bg1);
+    padding: 32px;
+}
+
+#appointment form .form-control {
+    background-color: var(--bg2);
+    border-radius: 0;
+    margin-top: 16px;
+    border-color: var(--bg2);
+    border: 2px solid var(--bg2);
+}
+
+#appointment form input {
+    height: 58px;
+    color: var(--body);
+}
+
+#appointment form textarea {
+    color: var(--body);
+}
+
+#appointment form .form-control:focus {
+    box-shadow: none;
+    border-left-color: var(--brand);
 }
 
 

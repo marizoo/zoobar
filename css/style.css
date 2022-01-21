@@ -260,6 +260,37 @@ background: linear-gradient(to bottom, #181f34, rgba(27, 31, 52, 0.2));
     top: 30px;
 }
 
+/* REVIEWS */
+#reviews {
+    background-color: var(--bg2);
+}
+
+.review {
+    padding: 32px;
+    background-color: var(--bg1);
+    position: relative;
+}
+
+.review img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .icon-review {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand);
+    color: var(--bg1);
+    position: absolute;
+    right: 32px;
+}
+
 
 
 
